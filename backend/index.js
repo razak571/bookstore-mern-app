@@ -7,7 +7,7 @@ import cors from "cors";
 const app = express();
 
 const PORT = process.env.PORT || 3000;
-const mongoDBURL = process.env.mongoDBURL;
+const mongoDBURL = process.env.MONGODBURL;
 const baseUrl = process.env.BASEURL;
 
 app.use(express.json());
